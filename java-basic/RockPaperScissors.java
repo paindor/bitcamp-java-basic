@@ -61,7 +61,7 @@ class RockPaperScissors{
 
             }else if(com == 2){
                  System.out.println("com: 바위");
-                 System.out.println("당신은 이겼습니다.");
+                 System.out.println("당신의 승리.");
 
             }else{
                  System.out.println("com: 보");
