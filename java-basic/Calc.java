@@ -7,17 +7,43 @@ class Calc{
 
 
         Scanner scan = new Scanner(System.in);
+        int input1, input2 , result = 0;
+        System.out.print("숫자입력1>");
+        input1 = scan.nextInt();
 
-        System.out.print("숫자입력>");
-        int input1 = scan.nextInt();
+        System.out.print("숫자입력2>");
+        input2 = scan.nextInt();
 
-        System.out.print("숫자입력>");
-        int input2 = scan.nextInt();
+        //result = input1 + input2;
 
-        int sum = input1 + input2;
+       // System.out.println(String.format("%d + %d = %d", input1, input2, result));
+        String op = null;
+        System.out.print("연산종류 선택 +  , - ,  * , /  > ");
+        op = scan.next();
 
-        System.out.println(String.format("%d + %d = %d", input1, input2, sum));
+
+        if(op.equals("+")){
+            result = input1 + input2;
+             System.out.println(String.format("%d + %d = %d", input1, input2, result));
+
+        }else if(op.equals("-")){
+             result = input1 - input2;
+              System.out.println(String.format("%d - %d = %d", input1, input2, result));
+
+        }else if(op.equals("*")){
+             result = input1 * input2;
+              System.out.println(String.format("%d * %d = %d", input1, input2, result));
+
+        }else if(op.equals("/")){
+             result = input1 / input2;
+              System.out.println(String.format("%d / %d = %d", input1, input2, result));
+        }else {
+             result = input1 + input2;
+              System.out.println(String.format("%d + %d = %d", input1, input2, result));
+        }
+
         
+
 
 
     }
