@@ -12,7 +12,7 @@ class CalcDivision{
 
         int div = n1/ n2;
 
-        System.out.println(n1 + " / " + n2 + " = " + div);
+        System.out.println(String.format("%d / %d = %d", n1, n2, div));
 
 
 

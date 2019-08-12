@@ -13,7 +13,7 @@ class Calc_Minus{
 
         int result = num1 - num2;
 
-        System.out.println(num1 + "-" + num2 + "=" + result );
+        System.out.println(String.format("%d - %d = %d",num1, num2, result ));
 
 
     }

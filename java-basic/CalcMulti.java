@@ -14,7 +14,8 @@ class CalcMulti{
         int multi = n1 * n2;
 
 
-        System.out.println(n1 + " x " + n2 +"=" + multi  );
+        System.out.println(String.format("%d x %d = %d", n1, n2, multi) );
+        
 
     }
 }

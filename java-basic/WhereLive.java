@@ -11,7 +11,8 @@ class WhereLive{
 
         String input = scan.next();
 
-        System.out.println( input + "에 살고있어여");
+        System.out.println(String.format("%s에 살고있어요", input) );
+        
 
 
     }

@@ -16,7 +16,8 @@ class Calc{
 
         int sum = input1 + input2;
 
-        System.out.println(sum);
+        System.out.println(String.format("%d + %d = %d", input1, input2, sum));
+        
 
 
     }
