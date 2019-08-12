@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 class WhatName{
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         System.out.println("이름뭐야?");
         String name = "";
 
